@@ -12,3 +12,4 @@ class Solution(object):
             self.maxDepth(root.left),
             self.maxDepth(root.right)
         )
+        
