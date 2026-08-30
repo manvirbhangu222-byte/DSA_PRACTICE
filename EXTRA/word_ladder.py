@@ -1,6 +1,6 @@
 from collections import deque
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
+    def ladderLength(self, beginWord: str, endWord: str, wordList) -> int:
         word_set=set(wordList)
 
         if endWord not in word_set:
